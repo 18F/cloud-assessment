@@ -1,4 +1,4 @@
-<style>
+<style type="text/css" rel="stylesheet">
 table, th, td {
   border: 2px solid black;
 }
