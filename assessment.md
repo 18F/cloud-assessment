@@ -7,13 +7,14 @@ table, th, td {
 # Purpose
 
 1. Assess relative complexity and risk of migrating a service to a cloud solution
-2. Determine which of the 6 &quot;Re-s&quot; are most appropriate for this services:
-  1. Remove/Retire:
-  2. Retain: Keep in a DC, somehow
-  3. Repurchase: Also call Replace or Drop &amp; Shop
-  4. Rehost: Also called Lift &amp; Shift. (Automate, Hybrid or Manual rehost options)
-  5. Replatform: Lift the app out of its host-dependencies for better cloud experience
-  6. Refactor/Rewrite: Decouple application from non-cloud dependencies.
+1. Determine which of the 6 &quot;Re-s&quot; are most appropriate for this services:
+
+  * Remove/Retire:
+  * Retain: Keep in a DC, somehow
+  * Repurchase: Also call Replace or Drop &amp; Shop
+  * Rehost: Also called Lift &amp; Shift. (Automate, Hybrid or Manual rehost options)
+  * Replatform: Lift the app out of its host-dependencies for better cloud experience
+  * Refactor/Rewrite: Decouple application from non-cloud dependencies.
 
 # Business/Mission Drivers (8)
 
@@ -36,7 +37,7 @@ Are there other mission/business drivers that should impact prioritizing this re
 
 # Mission alignment (3)
 
-Before we apply the SaaS-\&gt;PaaS-\&gt;IaaS-\&gt;Datacenter decision flow, we should first determine if this is something we can wholly outsource, or cease doing entirely.
+Before we apply the SaaS-&gt; PaaS-&gt;IaaS-&gt;Datacenter decision flow, we should first determine if this is something we can wholly outsource, or cease doing entirely.
 
 |   | Strongly Agree | Agree | Neutral | Disagree | Strongly disagree |
 | --- | --- | --- | --- | --- | --- |
@@ -121,7 +122,7 @@ Gated, multiteam, high-friction infrequently-used change processes indicate a bu
 | How are differences between envs minimized? |   |
 | Where are teams located? How do they communicate and plan? |    |
 
-**Other notes on change processes**
+**Other notes on change processes:**
 
 # Business and Operations considerations (14)
 | Question / Consideration | Response |
