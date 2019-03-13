@@ -16,13 +16,13 @@ There is no formal scoring as yet.
 
 ## Using
 
-Open the [assessement markdown](./assessment.md) and save/export as a Word doc or Google drive doc. 
+Use the latest `assessment.docx` in the [Releases](https://github.com/18F/cloud-assessment/releases)
 
 The survey the system owner and record the answers. Done.
 
 ## Roadmap
 
-* Use pandoc to build .docx releases (e.g. https://mrjoe.uk/convert-markdown-to-word-document/) ready for download
+* Use pandoc to build .docx releases (e.g. https://mrjoe.uk/convert-markdown-to-word-document/) ready for download - DONE
 * Build a webform that you can run locally, or as a service on cloud.gov
 
 
