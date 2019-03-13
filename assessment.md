@@ -1,9 +1,3 @@
-<style type="text/css" rel="stylesheet">
-table, th, td {
-  border: 2px solid black;
-}
-</style>
-
 # Purpose
 
 1. Assess relative complexity and risk of migrating a service to a cloud solution
@@ -51,7 +45,7 @@ What&#39;s needed for the system to run? Documents like system requirements, ins
 
 | Question / Consideration | Response |
 | --- | --- |
-| Application language and language version |   |
+| Application language and language version |  [Text to balance column width] Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod |
 | Current application operating system and version |   |
 | Compatible application operating systems and platforms (32/64bit) |   |
 | App servers in use (e.g. Liberty, Tomcat, etc)?  Any app server side code? |   |
@@ -76,7 +70,7 @@ Any shared data stores? |   |
 
 | Question / Consideration | Response |
 | --- | --- |
-| What versions are installed, how current are they, and when are they EOL&#39;d? |   |
+| What versions are installed, how current are they, and when are they EOL&#39;d? | [Text to balance column width] Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod |
 | How is the application delivered? Or updates to it (e.g. MSI, WAR) |   |
 | Release cycle for patches and upgrades? |   |
 | What&#39;s the licensing model? |   |
@@ -90,7 +84,7 @@ Any shared data stores? |   |
 
 | Question / Consideration | Response |
 | --- | --- |
-| Back end application frameworks and APIs in place (e.g. Django, Spring, J2EE, JNDI, …) |   |
+| Back end application frameworks and APIs in place (e.g. Django, Spring, J2EE, JNDI, …) | [Text to balance column width] Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod |
 | Front end client technologies: JSP, JS, Angular, React, ... |   |
 | How is code built (ant, maven, …) and packaged (ear, pkg, AMI, …) |   |
 | 3rd-party libraries packaged with deployment |   |
@@ -110,7 +104,7 @@ Gated, multiteam, high-friction infrequently-used change processes indicate a bu
 
 | **Question** | **Brief answer** |
 | --- | --- |
-| What&#39;s the time to enact a minor functional change (e.g change a button color) |   |
+| What&#39;s the time to enact a minor functional change (e.g change a button color) |  [Text to balance column width] Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  |
 | How many teams/persons are involved in deciding, approving, making and delivering that change? |   |
 | What&#39;s the change failure rate? Is that rate OK? |   |
 | What&#39;s the time to enact a minor non-functional requirement change (e.g. patch the OS) |    |
@@ -127,7 +121,7 @@ Gated, multiteam, high-friction infrequently-used change processes indicate a bu
 # Business and Operations considerations (14)
 | Question / Consideration | Response |
 | --- | --- |
-| Number of application users? |   |
+| Number of application users? |  [Text to balance column width] Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  |
 How many concurrent or in one day? |   |
 | How do you handle user/admin authentication and authorization? |   |
 | Is peak demand met? How is the application scaled? |   |
@@ -151,7 +145,7 @@ Having the System Security Plan (SSP), Interconnection Security Agreements (ISAs
 
 | Question / Consideration | Response |
 | --- | --- |
-| FISMA impact levels |   |
+| FISMA impact levels |  [Text to balance column width] Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  |
 | Current ATO status (none, 3yr, provisional) |   |
 | How many POAMs are you carrying? |   |
 | Main FISMA information types |   |
