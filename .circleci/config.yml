@@ -18,14 +18,11 @@ jobs:
   publish_github_release:
     docker:
     - image: golang:1.8
-    #- image: circleci/golang:1.8
     steps:
-#    - attach_workspace:
-#      at: .
     - run:
         name: "Publish Release on GitHub"
         command: |
-          echo "Here we go"
+          ls -l assessment.docx
           go get github.com/tcnksm/ghr
           VERSION=0.0.2
           ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} ./assessment.docx
