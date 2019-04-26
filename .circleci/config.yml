@@ -31,8 +31,8 @@ jobs:
         command: |
           ls -l assessment.docx
           go get github.com/tcnksm/ghr
-          VERSION=0.0.2
-          ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} ./assessment.docx
+          VERSION=${CIRCLE_BRANCH}
+          ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} ${VERSION} ./assessment.docx
 
 # Orchestrate or schedule a set of jobs, see https://circleci.com/docs/2.0/workflows/
 workflows:
@@ -42,4 +42,9 @@ workflows:
       - build
       - publish_github_release:
           requires:
-            - build
+          - build
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^\d+\.\d+\.\d+$/
