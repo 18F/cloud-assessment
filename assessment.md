@@ -45,7 +45,7 @@ What&#39;s needed for the system to run? Documents like system requirements, ins
 
 | Question / Consideration | Response |
 | --- | --- |
-| Application language and language version |  [Text to balance column width] Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod |
+| Application language or language version |  [Text to balance column width] Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod |
 | Current application operating system and version |   |
 | Compatible application operating systems and platforms (32/64bit) |   |
 | App servers in use (e.g. Liberty, Tomcat, etc)?  Any app server side code? |   |
