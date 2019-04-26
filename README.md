@@ -36,5 +36,6 @@ MITRE's CMAT: Jim Ramsey of MITRE provided Peter Burkholder, 18F, with some of t
 ## Authors
 
 * Peter Burkholder (@pburkholder)
+* Lori Breeden-Jones
 * Dr. Mark Lucas
 
