@@ -37,9 +37,20 @@ jobs:
 # Orchestrate or schedule a set of jobs, see https://circleci.com/docs/2.0/workflows/
 workflows:
   version: 2
+  build_pull_requests:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: /.*/
   build_publish:
     jobs:
-      - build
+      - build:
+          filters:
+            tags:
+              only: /^[vV]?\d+\.\d+\.\d+$/
+            branches:
+              ignore: /.*/
       - publish_github_release:
           requires:
           - build
