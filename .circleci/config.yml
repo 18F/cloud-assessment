@@ -24,7 +24,7 @@ jobs:
     docker:
     - image: golang:1.8
     steps:
-    - attach_to_workspace:
+    - attach_workspace:
         at: .
     - run:
         name: "Publish Release on GitHub"
