@@ -15,10 +15,17 @@ jobs:
     - run: 
         name: "Make assessment.docx"
         command: make
+    - persist_to_workspace:
+        root: .
+        paths: 
+        - assessment.docx
+      
   publish_github_release:
     docker:
     - image: golang:1.8
     steps:
+    - attach_to_workspace:
+        at: .
     - run:
         name: "Publish Release on GitHub"
         command: |
