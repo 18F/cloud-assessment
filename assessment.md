@@ -1,4 +1,6 @@
-# Purpose
+# Purpose of this project
+
+18F and FEMA collaborated on this assessment to:
 
 1. Assess relative complexity and risk of migrating a service to a cloud solution
 1. Determine which of the 6 &quot;Re-s&quot; are most appropriate for this services:
