@@ -3,23 +3,23 @@ version: 2.0
 
 jobs:
   build:
-    docker: 
+    docker:
     - image: buildpack-deps:trusty
     steps:
     - checkout
-    - run: 
+    - run:
         name: "Get Pandoc and install it"
         command: |
           wget https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-1-amd64.deb
           dpkg -i pandoc-2.7.2-1-amd64.deb
-    - run: 
+    - run:
         name: "Make assessment.docx"
         command: make
     - persist_to_workspace:
         root: .
-        paths: 
+        paths:
         - assessment.docx
-      
+
   publish_github_release:
     docker:
     - image: golang:1.8
@@ -34,7 +34,6 @@ jobs:
           VERSION=0.0.2
           ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION} ./assessment.docx
 
-
 # Orchestrate or schedule a set of jobs, see https://circleci.com/docs/2.0/workflows/
 workflows:
   version: 2
@@ -44,4 +43,3 @@ workflows:
       - publish_github_release:
           requires:
             - build
-        
