@@ -1,7 +1,11 @@
 # Cloud Assessment
 
-1. Assess relative complexity and risk of migrating a service to a cloud solution
-1. Determine which of the 6 &quot;Re-s&quot; are most appropriate for this services:
+This assessment borrows heavily from work by Pivotal and MITRE in terms of the questions asked. It doesn't have a scoring component, as the weighting of the different factors is going to be context-dependent, and it's important for the tool to have investment and iteration by a team the doing the work. I think having a "black box" scoring tool is not only going to provide wrong answers, but, critically, robs the onsite team the chance to build their own understanding of what works in cloud migration in _their_ environment.
+
+The ideal use for the assessment in its current state is to: 
+
+1. Prioritize applications or services for migration, in terms of complexity and risk, by doing a quick assessment (possibly with a subset of questions) across an entire portfolio
+2. Support a deeper dive into the migration path for a particular application by doing an full interview with the relevant SMEs, then using that information to inform an initial cloud strategy, i.e.:
 
   * Remove/Retire:
   * Retain: Keep in a DC, somehow
@@ -12,7 +16,7 @@
 
 We've assembled this cloud assessment based on our own experience, and some available assessments from Pivotal and MITRE. Questions are applicable to Federal environments of FISMA Low, Moderate or High impact.
 
-There is no formal scoring as yet. 
+There is no formal scoring as yet, as noted above.
 
 ## Using
 
