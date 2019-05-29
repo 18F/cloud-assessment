@@ -1,6 +1,6 @@
 # Cloud Assessment
 
-This assessment borrows heavily from work by Pivotal and MITRE in terms of the questions asked. It doesn't have a scoring component, as the weighting of the different factors is going to be context-dependent, and it's important for the tool to have investment and iteration by a team the doing the work. I think having a "black box" scoring tool is not only going to provide wrong answers, but, critically, robs the onsite team the chance to build their own understanding of what works in cloud migration in _their_ environment.
+This assessment borrows heavily from work by Pivotal and MITRE in terms of the questions asked. It doesn't have a scoring component, as the weighting of the different factors is going to be context-dependent, and it's important for the tool to have investment and iteration by a team the doing the work. A “black box” scoring tool may well provide questionable answers in its scoring, and will certainly deprive the onsite team the experience of building their own understanding of what works in cloud migration tailored to _their_ needs.
 
 The ideal use for the assessment in its current state is to: 
 
